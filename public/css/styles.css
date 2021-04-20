@@ -11,8 +11,11 @@
     font-size: 12px;
     letter-spacing: 5px;
 }
+.navbar-default {
+    background-color: #a0c926;
+}
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #1a1b16 !important;
 }
 
 .footer-padding {

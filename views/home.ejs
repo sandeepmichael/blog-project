@@ -11,10 +11,12 @@
     <h1><%= post.title %></h1>
     <p><%= post.content.substring(0, 100) + '.....' %>
     <a href="/posts/<%=post._id%>">READ MORE</a> 
-      <button type="submit" name="submit" value="<%=post._id%>">Delete</button>
+      <button type="submit" name="submit" class="btn btn-danger"value="<%=post._id%>">Delete</button>
     </p> 
     </form>
 <% })%>
+
+<%- include('partials/footer'); -%>
 
 
 
