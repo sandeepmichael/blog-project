@@ -30,7 +30,7 @@ const Post = mongoose.model("Post", postSchema);
 
 
 app.get('/', (req, res) => {
- Post.find({}, (err, posts) => {res.render('Home', {startingcontent : homestartingpoint, newPosts: posts})
+ Post.find({}, (err, posts) => {res.render('home', {startingcontent : homestartingpoint, newPosts: posts})
 })
 })
 
