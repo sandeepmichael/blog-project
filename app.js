@@ -9,7 +9,7 @@ const mongoose = require('mongoose')
 const homestartingpoint = "THIS IS THE HOMEPAGE OF MY BLOG..!!"
 
 const aboutContent = "Iam sandeep michael currently iam pursuing BTech in JNTU Hyderabad."
-const contactContent = "This is the contact page You can reach out me by sending emails to this emailId:sandeepmichael65@outlook.com Iam excited to receive anything from anyone see u all :)" 
+const contactContent = "This is the contact page You can reach out me by this emailId:sandeepmichael65@outlook.com Iam happy to receive anything from anyone see u all :)" 
 
 const app = express();
 
